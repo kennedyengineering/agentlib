@@ -2,9 +2,15 @@
 # 2024 Braedan Kennedy (kennedyengineering)
 
 
-def test_example():
+def test_sarsa():
     """
-    Example test
+    Test sarsa method
     """
 
-    pass
+    import gymnasium as gym
+
+    from ...tabular.sarsa.sarsa import sarsa
+
+    env = gym.make("FrozenLake-v1")
+
+    Q, V, pi, Q_track, pi_track = sarsa(env)
