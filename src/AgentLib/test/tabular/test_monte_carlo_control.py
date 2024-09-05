@@ -42,6 +42,10 @@ def test_monte_carlo_control():
     Test monte_carlo_control method
     """
 
+    import gymnasium as gym
+
     from ...tabular.monte_carlo_control.monte_carlo_control import monte_carlo_control
 
-    pass
+    env = gym.make("FrozenLake-v1")
+
+    Q, V, pi, Q_track, pi_track = monte_carlo_control(env)

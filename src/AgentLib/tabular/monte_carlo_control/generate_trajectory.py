@@ -18,7 +18,7 @@ def generate_trajectory(select_action, Q, epsilon, env, max_steps=200):
     while not done:
 
         # Reset the environment to interact with a new episode
-        state = env.reset()
+        state, _ = env.reset()
 
         # Start counting steps `t`
         for t in count():
@@ -27,7 +27,7 @@ def generate_trajectory(select_action, Q, epsilon, env, max_steps=200):
             action = select_action(state, Q, epsilon)
 
             # Step the environment using that action and obtain the full experience tuple
-            next_state, reward, done, _ = env.step(action)
+            next_state, reward, done, _, _ = env.step(action)
 
             experience = (state, action, reward, next_state, done)
 
@@ -47,4 +47,4 @@ def generate_trajectory(select_action, Q, epsilon, env, max_steps=200):
             state = next_state
 
     # Return a NumPy version of the trajectory for easy data manipulation
-    return np.array(trajectory)
+    return np.array(trajectory, object)

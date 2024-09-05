@@ -50,7 +50,7 @@ def monte_carlo_control(
     select_action = lambda state, Q, epsilon: (
         np.argmax(Q[state])
         if np.random.random() > epsilon
-        else np.random.randint(len(Q(state)))
+        else np.random.randint(len(Q[state]))
     )
 
     # Run the episode loop for `n_episodes` episodes
