@@ -25,3 +25,13 @@ def test_decay_schedule():
 
     # Check max_steps
     assert values.size == 100
+
+
+def test_generate_trajectory():
+    """
+    Test generate_trajectory method
+    """
+
+    from ...tabular.monte_carlo_control.generate_trajectory import generate_trajectory
+
+    pass
