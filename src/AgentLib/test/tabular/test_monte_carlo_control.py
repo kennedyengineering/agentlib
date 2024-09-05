@@ -35,3 +35,13 @@ def test_generate_trajectory():
     from ...tabular.monte_carlo_control.generate_trajectory import generate_trajectory
 
     pass
+
+
+def test_monte_carlo_control():
+    """
+    Test monte_carlo_control method
+    """
+
+    from ...tabular.monte_carlo_control.monte_carlo_control import monte_carlo_control
+
+    pass
