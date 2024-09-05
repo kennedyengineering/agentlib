@@ -9,7 +9,7 @@ The AgentLib library aims to provide simple and well documented implementations 
 
 ### Tabular Methods
 
-- [ ] [**Monte Carlo Control**](src/AgentLib/tabular/monte_carlo_control/README.md)
+- [x] [**Monte Carlo Control**](src/AgentLib/tabular/monte_carlo_control/README.md)
 
 - [ ] [**SARSA**](src/AgentLib/tabular/sarsa/README.md)
 
