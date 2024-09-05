@@ -1,4 +1,4 @@
-from ...tabular.monte_carlo_control.monte_carlo_control import decay_schedule
+from ...tabular.monte_carlo_control.decay_schedule import decay_schedule
 
 
 def test_decay_schedule():
