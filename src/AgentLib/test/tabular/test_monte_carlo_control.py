@@ -1,10 +1,13 @@
-from ...tabular.monte_carlo_control.decay_schedule import decay_schedule
+# AgentLib
+# 2024 Braedan Kennedy (kennedyengineering)
 
 
 def test_decay_schedule():
     """
     Test decay_schedule method
     """
+
+    from ...tabular.monte_carlo_control.decay_schedule import decay_schedule
 
     values = decay_schedule(
         init_value=5, min_value=0.25, decay_ratio=0.25, max_steps=100
