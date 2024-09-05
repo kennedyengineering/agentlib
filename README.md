@@ -11,7 +11,7 @@ The AgentLib library aims to provide simple and well documented implementations 
 
 - [x] [**Monte Carlo Control**](src/AgentLib/tabular/monte_carlo_control/README.md)
 
-- [ ] [**SARSA**](src/AgentLib/tabular/sarsa/README.md)
+- [x] [**SARSA**](src/AgentLib/tabular/sarsa/README.md)
 
 - [ ] [**Q-Learning**](src/AgentLib/tabular/q_learning/README.md)
 
