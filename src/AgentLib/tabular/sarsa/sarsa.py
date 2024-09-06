@@ -60,7 +60,7 @@ def sarsa(
         # Repeat until terminal state is hit
         while not done:
 
-            # Step the environment ang get the experience
+            # Step the environment and get the experience
             next_state, reward, done, _, _ = env.step(action)
 
             # Obtain the action for the next step

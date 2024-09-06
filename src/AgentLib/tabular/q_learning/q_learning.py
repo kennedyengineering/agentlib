@@ -60,7 +60,7 @@ def q_learning(
             # Select action for the current state
             action = select_action(state, Q, epsilons[e])
 
-            # Step the environment ang get the experience
+            # Step the environment and get the experience
             next_state, reward, done, _, _ = env.step(action)
 
             # Calculate the `td_target`, multiply expression by (not done) to zero out the future on terminal states
