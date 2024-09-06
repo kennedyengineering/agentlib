@@ -36,6 +36,8 @@ def test_generate_trajectory():
 
     pass
 
+    # TODO: add test
+
 
 def test_monte_carlo_control():
     """
@@ -49,3 +51,5 @@ def test_monte_carlo_control():
     env = gym.make("FrozenLake-v1")
 
     Q, V, pi, Q_track, pi_track = monte_carlo_control(env)
+
+    # TODO: test output
