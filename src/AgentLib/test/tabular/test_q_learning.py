@@ -1,7 +1,10 @@
+# AgentLib
+# 2024 Braedan Kennedy (kennedyengineering)
 
-def test_example():
+
+def test_q_learning():
     """
-    Example test
+    Test q_learning method
     """
 
     pass
