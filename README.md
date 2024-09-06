@@ -15,7 +15,7 @@ The AgentLib library aims to provide simple and well documented implementations 
 
 - [x] [**Q-Learning**](src/AgentLib/tabular/q_learning/README.md)
 
-- [ ] [**Double Q-Learning**](src/AgentLib/tabular/double_q_learning/README.md)
+- [x] [**Double Q-Learning**](src/AgentLib/tabular/double_q_learning/README.md)
 
 ### Deep Learning Methods
 
